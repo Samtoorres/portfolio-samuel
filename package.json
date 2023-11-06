@@ -41,5 +41,11 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.6.2"
-  }
+  },
+  "budgets": [
+    {
+        "type": "initial",
+        "maximumWarning": "4mb",
+        "maximumError": "5mb"
+    }]
 }

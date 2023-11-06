@@ -9,10 +9,6 @@
   border-style: groove;
 }
 
-.ap{
-
-}
-
 .texto{
   padding-top: 3em;
 }
@@ -23,4 +19,16 @@
 
 .texto p{
   margin-right: 10em !important;
+}
+
+button{
+  color: white !important;
+  background-color: transparent;
+  border-color: white !important;
+  border-style: groove;
+}
+
+a{
+  color: white;
+  text-decoration: none;
 }

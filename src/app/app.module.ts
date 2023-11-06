@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { ApresentacaoComponent } from './apresentacao/apresentacao.component';
 import { CarreiraComponent } from './carreira/carreira.component';
 import { HabilidadesComponent } from './habilidades/habilidades.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { HabilidadesComponent } from './habilidades/habilidades.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    TemplateModule
+    TemplateModule,
+    BrowserAnimationsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

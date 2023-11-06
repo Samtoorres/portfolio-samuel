@@ -1,10 +1,12 @@
 @import "~bootstrap/scss/bootstrap";
 
 body{
-  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
-background-repeat: no-repeat;
-background-size: 100%;
-color: white;
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%) !important;
+  background-size: 100%;
+  color: white;
 }
 
 
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

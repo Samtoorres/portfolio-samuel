@@ -1,7 +1,12 @@
-img{
+.img{
   width: 150px;
   height: 150px;
-  margin-left: 10em;
+
+}
+
+.img-principal{
+  width: 150px;
+  height: 150px;
 }
 
 .mg-t{
@@ -9,17 +14,13 @@ img{
 }
 
 .card{
-  width: 30rem;
+  width: 35rem;
   display: inline-block;
   margin: 1em 3em;
 }
 
 .txt-c{
   text-align: center;
-}
-
-.momento{
-  margin-left: 20em;
 }
 
 div.card-body{
@@ -33,3 +34,12 @@ div.card-body{
 h2.txt-c{
   color: white;
 }
+
+.card.centralizada{
+  width: 100% !important;
+}
+
+.pd-l{
+  margin-left: 3em;
+}
+

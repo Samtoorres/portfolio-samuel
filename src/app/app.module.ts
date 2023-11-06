@@ -9,22 +9,33 @@ import { CarreiraComponent } from './carreira/carreira.component';
 import { HabilidadesComponent } from './habilidades/habilidades.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
+import { ProjetosComponent } from './projetos/projetos.component';
+import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { fas } from '@fortawesome/free-solid-svg-icons';
 
 @NgModule({
   declarations: [
     AppComponent,
     ApresentacaoComponent,
     CarreiraComponent,
-    HabilidadesComponent
+    HabilidadesComponent,
+    ProjetosComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     TemplateModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    MatButtonModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(library: FaIconLibrary) {
+    library.addIconPacks(fas);
+  }
+}

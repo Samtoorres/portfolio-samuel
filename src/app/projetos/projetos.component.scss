@@ -1,0 +1,75 @@
+img{
+  width: 10em;
+  height: 10em;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  margin-right: 3em;
+  padding-top: 4em;
+}
+
+.projetos{
+  background-color: white;
+  border-radius: 1em;
+  padding-top: 2em;
+  width: 80%;
+  margin-left: 10em;
+  color: #243949;
+}
+
+.icone-angular{
+  margin-left: 2em;
+}
+
+h2{
+  margin-top: 3em;
+  text-align: center;
+}
+
+h5{
+  color: #243949;
+}
+
+button{
+  border: none;
+  background-color: white;
+
+}
+
+// mat-icon{
+//   font-size: 3em;
+//   margin-right: 10px;
+// }
+
+.mais{
+  text-align: center;
+  margin-top: 2em;
+}
+
+a{
+  text-decoration: none;
+  color: #243949;
+}
+
+span{
+  font-size: 20px;
+}
+
+.benfica{
+  margin-left: 2em;
+}
+
+.benfica span{
+  font-size: 40px;
+}
+
+.benfica mat-icon{
+  padding-left: 1.5em;
+}
+

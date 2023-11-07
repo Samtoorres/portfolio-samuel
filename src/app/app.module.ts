@@ -11,8 +11,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { ProjetosComponent } from './projetos/projetos.component';
-import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { fas } from '@fortawesome/free-solid-svg-icons';
 
 @NgModule({
   declarations: [
@@ -28,14 +26,10 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
     TemplateModule,
     BrowserAnimationsModule,
     MatIconModule,
-    MatButtonModule,
-    FontAwesomeModule
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {
-  constructor(library: FaIconLibrary) {
-    library.addIconPacks(fas);
-  }
 }

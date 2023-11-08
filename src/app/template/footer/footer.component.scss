@@ -17,6 +17,12 @@ a{
   color: white;
 }
 
+@media (min-width: 280px) and (max-width: 350px){
+  mat-icon{
+    margin-left: 4em !important;
+  }
+}
+
 @media (max-width: 360px) and (max-width: 400px) {
   p{
     float: left;

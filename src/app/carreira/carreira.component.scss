@@ -43,14 +43,40 @@ h2.txt-c{
   margin-left: 3em;
 }
 
-@media (max-width: 360px) and (max-width: 400px) {
+@media (min-width: 280px) and (max-width: 350px){
+
   .card{
-    width: 15em;
+    width: 14em !important;
+  }
+
+  #identificador-carreira .card{
+    margin-top: 1em;
+    margin-left: 0em !important;
   }
 
   .card.centralizada{
+    width: 5em !important;
+    margin-left: 1em !important;
+  }
+
+  #identificador-carreira{
+    margin-right: 5em !important;
+    margin-left: 1em !important;
+  }
+}
+
+@media (min-width: 355px) and (max-width: 400px){
+  .card{
     width: 18em !important;
-    margin-left: 3em;
+  }
+
+  #identificador-carreira{
+    margin-left: 1.7em !important;
+  }
+
+  .card.centralizada{
+    width: 7em !important;
+    margin-left: 1.5em !important;
   }
 }
 

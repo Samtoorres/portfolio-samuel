@@ -53,6 +53,13 @@ mat-icon{
   background-color: transparent;
 }
 
+@media (min-width: 280px) and (max-width: 350px){
+  .habilidades{
+    margin-left: 1.5em !important;
+    width: 85% !important;
+  }
+}
+
 @media (max-width: 430px) {
   .habilidades{
     margin-left: 3em;

@@ -1,6 +1,6 @@
 img{
-  width: 10em;
-  height: 10em;
+  width: 8em;
+  height: 8em;
 }
 
 ul {
@@ -10,7 +10,7 @@ ul {
 
 li {
   display: inline;
-  margin-right: 3em;
+  margin-right: 4em;
   padding-top: 4em;
 }
 
@@ -43,11 +43,66 @@ button{
 }
 
 mat-icon{
-  font-size: 3em;
+  font-size: 2em;
   margin-right: 10px;
 }
 
 .mais{
   text-align: center;
   margin-top: 2em;
+  background-color: transparent;
+}
+
+@media (max-width: 430px) {
+  .habilidades{
+    margin-left: 3em;
+  }
+
+  img{
+    width: 6em;
+    height: 6em;
+  }
+
+  li {
+    margin-right: 3em;
+    padding-top: 4em;
+  }
+
+  .icone-angular{
+    margin-left: 0em;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 760px) {
+  .habilidades{
+    margin-left: 3.5em;
+  }
+
+  img{
+    width: 6em;
+    height: 6em;
+  }
+
+  li {
+    margin-right: 3em;
+    padding-top: 4em;
+  }
+
+  .icone-angular{
+    margin-left: 0em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 850px) {
+  .habilidades{
+    width: 85%;
+    margin-left: 4em;
+  }
+}
+
+@media (min-width: 920px) and (max-width:1024px) {
+  .habilidades{
+    width: 90%;
+    margin-left: 3em;
+  }
 }

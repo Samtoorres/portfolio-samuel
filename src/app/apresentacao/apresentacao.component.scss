@@ -1,25 +1,29 @@
-.foto{
-  background-image: url("../../assets/images/foto-sorrindo.png");
-  //background-repeat: no-repeat;
-  width: 400px;
-	height: 400px;
-	padding: 5x 5px 0 0;
-  border-radius: 200px;
-  border-color: white;
-  border-style: groove;
-}
+// .foto{
+//   background-image: url("../../assets/images/foto.png");
+//   background-repeat: no-repeat, no-repeat;
+//   width: 400px;
+// 	height: 400px;
+// 	padding: 9x 5px 0 0 !important;
+//   border-radius: 200px;
+//   border-color: white;
+//   border-style: groove;
+//   position: relative !important;
+//   background-size: cover;
+// }
 
 .texto{
-  padding-top: 3em;
+  text-align: center;
+  width: 100%;
+  margin-top: 3em;
 }
 
 .texto h2{
   padding-bottom: 2em;
 }
 
-.texto p{
-  margin-right: 10em !important;
-}
+// .texto p{
+//   margin-right: 10em !important;
+// }
 
 button{
   color: white !important;

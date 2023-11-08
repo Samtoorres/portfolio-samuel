@@ -32,3 +32,68 @@ a{
   color: white;
   text-decoration: none;
 }
+
+@media (max-width: 430px) {
+  .texto{
+    text-align: center !important;
+    width: 100%;
+  }
+
+  .texto p{
+    margin-right: 0em !important;
+  }
+
+  .foto {
+    background-image: none; /* Remove a imagem de fundo */
+    width: auto; /* Redefine a largura para o valor padrão (automática) */
+    height: auto; /* Redefine a altura para o valor padrão (automática) */
+    padding: 0; /* Remove o padding */
+    border: none; /* Remove a borda */
+  }
+}
+
+@media (min-width: 540px) and (max-width: 760px) {
+  .texto{
+    text-align: center !important;
+    width: 100%;
+  }
+
+  .texto p{
+    margin-right: 0em !important;
+  }
+
+  .foto {
+    margin: 2em 0em 0em 5em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 850px) {
+  .texto{
+    text-align: center !important;
+    width: 100%;
+  }
+
+  .texto p{
+    margin-right: 0em !important;
+  }
+
+
+  .foto {
+    margin: 2em 0em 0em 10em;
+  }
+}
+
+@media (min-width: 920px) and (max-width:1024px) {
+  .texto p{
+    margin-right: 0em !important;
+  }
+
+  .foto{
+    padding: 0em !important;
+    margin: 0em !important;
+  }
+
+  .texto{
+    width: 50%;
+  }
+}
